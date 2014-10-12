@@ -1,5 +1,8 @@
 Maxime Douylliez
 
-Stade HelloWorld:
+Stade Serveur java et client python:
 Creation du projet sur eclipse, structure de projet en maven, utilisation de git.
-Le programme effectue un simple HelloWorld.
+
+Le server accepte des connections TCP et renvois le contenu recu mis en majuscule.
+Le client se connecte en tcp et envois un String convertis en tableau de bit.
+

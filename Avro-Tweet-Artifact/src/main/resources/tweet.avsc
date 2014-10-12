@@ -1,0 +1,9 @@
+{"namespace": "avroTweetDouylliez",
+ "type": "record",
+ "name": "Tweet",
+ "fields": [
+     {"name": "author", "type": "string"},
+     {"name": "message",  "type": ["int", "null"]},
+     {"name": "favorite_color", "type": ["string", "null"]}
+ ]
+}

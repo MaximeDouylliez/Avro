@@ -70,7 +70,7 @@
     </execution>
   </executions>
   <configuration>
-    <mainClass>avroTweetDouylliez.App</mainClass>
+    <mainClass>avroTweetDouylliez.Server</mainClass>
     <arguments>
       <argument>foo</argument>
       <argument>bar</argument>
@@ -87,7 +87,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>avroTweetDouylliez.App</mainClass>
+            <mainClass>avroTweetDouylliez.Server</mainClass>
           </manifest>
         </archive>
       </configuration>
@@ -97,7 +97,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>avroTweetDouylliez.App</mainClass>
+            <mainClass>avroTweetDouylliez.Server</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>
